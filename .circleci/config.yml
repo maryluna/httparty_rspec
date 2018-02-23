@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: install dependencies
-          command: |
+          command:
             gem install bundler
             command:
             bundle install
