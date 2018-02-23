@@ -12,7 +12,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            gem install bundles
+            gem install bundler
             command:
             bundle install
       # run tests!
